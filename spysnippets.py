@@ -3,7 +3,7 @@ import string
 
 def gen_doc():
 	return (''.join(random.choice(string.ascii_lowercase)+' ' for _ in range(501)))
-
+#adding stuff!
 def answer(document, searchTerms):
 	#need to be able to quickly find a value from a list
 	def binsearch(x, lst):
